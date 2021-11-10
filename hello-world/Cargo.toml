@@ -1,0 +1,16 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+edition = "2021"
+
+# We add cdylib and rlib to tell rust
+# it needs to build for WebAssembly and Rust
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# wasm-bindgen builds the JavaScript bindings
+# Take a look at the following link for more info:
+# https://rustwasm.github.io/docs/wasm-bindgen/
+wasm-bindgen = "0"
+

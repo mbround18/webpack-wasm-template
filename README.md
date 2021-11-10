@@ -1,1 +1,3 @@
-# webpack-wasm-template
+# Rust + WebAssembly + JavaScript
+
+[**See tutorial here**]()
