@@ -137,7 +137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wasm-tool/wasm-pack-plugin@npm:^1.6.0":
+"@wasm-tool/wasm-pack-plugin@npm:1.6.0":
   version: 1.6.0
   resolution: "@wasm-tool/wasm-pack-plugin@npm:1.6.0"
   dependencies:
@@ -1707,7 +1707,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.5.0":
+"html-webpack-plugin@npm:5.5.0":
   version: 5.5.0
   resolution: "html-webpack-plugin@npm:5.5.0"
   dependencies:
@@ -3700,7 +3700,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^4.9.1":
+"webpack-cli@npm:4.9.1":
   version: 4.9.1
   resolution: "webpack-cli@npm:4.9.1"
   dependencies:
@@ -3748,7 +3748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.4.0":
+"webpack-dev-server@npm:4.4.0":
   version: 4.4.0
   resolution: "webpack-dev-server@npm:4.4.0"
   dependencies:
@@ -3809,15 +3809,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "webpack-wasm-template@workspace:."
   dependencies:
-    "@wasm-tool/wasm-pack-plugin": ^1.6.0
-    html-webpack-plugin: ^5.5.0
-    webpack: ^5.63.0
-    webpack-cli: ^4.9.1
-    webpack-dev-server: ^4.4.0
+    "@wasm-tool/wasm-pack-plugin": 1.6.0
+    html-webpack-plugin: 5.5.0
+    webpack: 5.63.0
+    webpack-cli: 4.9.1
+    webpack-dev-server: 4.4.0
   languageName: unknown
   linkType: soft
 
-"webpack@npm:^5.63.0":
+"webpack@npm:5.63.0":
   version: 5.63.0
   resolution: "webpack@npm:5.63.0"
   dependencies:
