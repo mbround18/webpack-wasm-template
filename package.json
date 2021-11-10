@@ -5,6 +5,9 @@
   "repository": "git@github.com:mbround18/webpack-wasm-template.git",
   "author": "mbround18 <12646562+mbround18@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve"
+  },
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",
     "html-webpack-plugin": "^5.5.0",
