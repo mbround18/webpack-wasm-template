@@ -1744,9 +1744,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:5.5.0":
-  version: 5.5.0
-  resolution: "html-webpack-plugin@npm:5.5.0"
+"html-webpack-plugin@npm:5.6.2":
+  version: 5.6.2
+  resolution: "html-webpack-plugin@npm:5.6.2"
   dependencies:
     "@types/html-minifier-terser": ^6.0.0
     html-minifier-terser: ^6.0.2
@@ -1754,8 +1754,14 @@ __metadata:
     pretty-error: ^4.0.0
     tapable: ^2.0.0
   peerDependencies:
+    "@rspack/core": 0.x || 1.x
     webpack: ^5.20.0
-  checksum: f3d84d0df71fe2f5bac533cc74dce41ab058558cdcc6ff767d166a2abf1cf6fb8491d54d60ddbb34e95c00394e379ba52e0468e0284d1d0cc6a42987056e8219
+  peerDependenciesMeta:
+    "@rspack/core":
+      optional: true
+    webpack:
+      optional: true
+  checksum: c579ce8b34ef1cd903829402aa6a62a6c92fe1cdfcd81d17ebc87f39eaab1381438b9d805a63457b255238db8f2865d71f48cd382375aa28718881e3ab2d2f9a
   languageName: node
   linkType: hard
 
@@ -3830,7 +3836,7 @@ __metadata:
   resolution: "webpack-wasm-template@workspace:."
   dependencies:
     "@wasm-tool/wasm-pack-plugin": 1.6.0
-    html-webpack-plugin: 5.5.0
+    html-webpack-plugin: 5.6.2
     webpack: 5.65.0
     webpack-cli: 4.9.1
     webpack-dev-server: 4.6.0
